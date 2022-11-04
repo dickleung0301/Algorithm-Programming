@@ -16,19 +16,19 @@ def check_str(index): # check str first or flow into other check will ereor
 
 def Task2_1(args):
     if check_str(1):
-        print(False, 1)
+        print(False)
         return
     if check_str(2):
-        print(False, 2)
+        print(False)
         return
     if check_str(3):
-        print(False, 3)
+        print(False)
         return
     if len(args) != 4:
         print(False)
     elif (args[1] == args[2] == args[3]):
         print(True)
     else:
-        print(False, 4)
+        print(False)
 
 Task2_1(args)
