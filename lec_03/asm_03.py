@@ -1,7 +1,7 @@
 # Task 1
 print('Task 1:')
 class Person:
-    def __init__(self,name,age,height):
+    def __init__(self,name,age,height): # implicit return object
         self.__name = name
         self.__age = age
         self.__height = height

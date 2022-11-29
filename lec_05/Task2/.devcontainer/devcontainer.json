@@ -1,0 +1,7 @@
+{
+    "name": "python-dev-env",
+
+    "image": "python:3.11.0-alpine3.15",
+
+    "postCreateCommand": "pip install -r requirements.txt && apk add git"
+}
